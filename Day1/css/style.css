@@ -1,10 +1,170 @@
-/* color */
-$bg-color: #25A9FC;
-$head-color: #A6BECF;
-$inner-ear-color:  #819CAF;
-$nose-color: #BE845F;
-$pupil-color: #27354A;
 
-/* shape */
+/* scss
+#5CD8FD
+: #5CD8FD;
+$light-blue: #DEF9FE;
 
+//shapes
+50% : 50%; */
 
+body {
+   background: #5CD8FD
+;
+   width:100%;
+   height: 900px;
+   
+}
+
+.outer-box {
+   position: relative;
+   margin: auto;
+   top: 100px;
+   width: 620px;
+   height:550px;
+   background: white;
+   border-radius: 10px;
+}
+.box {
+   position: absolute;
+   top:5%;
+   left:5%;
+   width:90%;
+   height:78%;
+   background: #5CD8FD
+;
+   border: 1px solid white;
+}
+   
+.button {
+   position:absolute;
+  top: 87%;
+   left: 73%;
+   background: white;
+   padding: 8px 15px;
+   text-align: center;
+   color: #5CD8FD
+;
+   font-size: 20px;
+   border: 1px solid #5CD8FD
+;
+   border-radius: 5px;
+  
+}
+
+.head {
+   position: absolute;
+   top:42%;
+   left: 30%;
+   width: 40%;
+   height: 58%;
+   background: #5CD8FD
+;
+     }
+
+.head-top {
+position: absolute;
+width: 100%;
+height: 70%;
+background: white;
+border-radius: 45%;
+z-index:1;   
+   
+  
+}
+
+.body {
+   position: absolute;
+   top: 35%;
+   width: 100%;
+      height: 65%;
+   background: white;
+   z-index: 0;
+    
+}
+.ear-right {
+   position: absolute;
+   left: 78%;
+   top: 10%;
+   width: 30%;
+   height: 43%;
+   background: white;
+   border-radius: 50%;
+   }
+.ear-left {
+   position: absolute;
+   left: -12%;
+   top: 10%;
+   width: 30%;
+   height: 43%;
+   background: white;
+   border-radius: 50%;
+   }
+
+.eye-right {
+   position: absolute;
+   top: 16%;
+   left: 38%;
+   background: black;
+   width:6%;
+   height:8%;
+   border-radius: 50%;
+}
+
+.eye-left {
+   position: absolute;
+   top: 16%;
+   right: 38%;
+   
+   background: black;
+   width:6%;
+   height:8%;
+   border-radius: 50%;
+}
+
+.nose-area {
+   position: absolute;
+   top: 26%;
+   left: 32%;
+   width: 36%;
+   height: 63%;
+   background: $light-blue;
+   border-radius: 40%;
+   }
+
+.nose {
+   position: absolute;
+   top: 5%;
+   left:15%;
+  background: black;
+   width: 70%;
+   height: 50%;
+   border-radius: 50%;
+      
+}
+.nose-shadow {
+   position: absolute;
+   top:15%;
+   left:15%;
+   background: white;
+   width: 28%;
+   height:25%;
+   background: white;
+   border-radius: 50%;
+  }
+
+.mouth {
+   position: absolute;
+   top: 150%;
+   left: 32.5%;
+   width: 35%;
+   height: 9%;
+   background: black;
+   border-radius:50%;
+      }
+footer {
+   position: absolute;
+   width: 100%;
+   top: 850px;
+   color: white;
+   text-align: center;  
+   }
